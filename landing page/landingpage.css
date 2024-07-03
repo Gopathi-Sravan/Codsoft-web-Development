@@ -1,0 +1,120 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header.hero {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/5/58/KITS_Warangal.JPG") no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+header.hero .hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header.hero p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+header.hero .cta {
+    padding: 10px 20px;
+    background: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+header.hero .cta:hover {
+    background: #0056b3;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.courses-section .courses-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    background-color: dimgray;
+    
+}
+
+.course-content{
+    background-color: #ffc2d1;
+}
+
+.course {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin: 10px 0;
+}
+
+.course img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.course h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.testimonials .testimonial {
+    background:#ede9dd;
+    padding: 20px;
+    margin: 10px auto;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Times New Roman;
+}
+
+.contact-link {
+    padding: 10px 20px;
+    background: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.contact-link:hover {
+    background: #0056b3;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
